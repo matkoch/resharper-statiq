@@ -1,14 +1,14 @@
 <idea-plugin require-restart="true">
   <id>com.jetbrains.rider.plugins.statiq</id>
-  <name>Statiq</name>
+  <name>Statiq Support</name>
   <version>_PLACEHOLDER_</version>
-  <vendor url="https://project-url">Author</vendor>
+  <vendor url="https://github.com/matkoch/resharper-statiq">Matthias Koch</vendor>
   <idea-version since-build="_PLACEHOLDER_" until-build="_PLACEHOLDER_" />
   <depends>com.intellij.modules.rider</depends>
 
   <description>
 <![CDATA[
-<p>Sample description</p>
+<p>Adds Razor symbol resolution for Statiq</p>
 ]]>
   </description>
 

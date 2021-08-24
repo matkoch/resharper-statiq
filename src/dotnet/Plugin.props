@@ -3,16 +3,16 @@
   <PropertyGroup>
     <SdkVersion>2021.2.0</SdkVersion>
 
-    <Title>Statiq</Title>
-    <Description>Description</Description>
+    <Title>Statiq Support</Title>
+    <Description>Adds Razor symbol resolution for Statiq</Description>
 
-    <Authors>Author</Authors>
-    <Copyright>Copyright $([System.DateTime]::Now.Year) Maintainers of Statiq</Copyright>
-    <PackageTags>resharper plugin</PackageTags>
+    <Authors>Matthias Koch</Authors>
+    <Copyright>Copyright $([System.DateTime]::Now.Year) Matthias Koch</Copyright>
+    <PackageTags>statiq static site generation</PackageTags>
 
-    <PackageProjectUrl></PackageProjectUrl>
-    <PackageLicenseUrl></PackageLicenseUrl>
-    <PackageIconUrl></PackageIconUrl>
+    <PackageProjectUrl>https://github.com/matkoch/resharper-statiq</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/matkoch/resharper-statiq/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/statiqdev/Statiq.Web/main/icon.png</PackageIconUrl>
   </PropertyGroup>
 
 </Project>
