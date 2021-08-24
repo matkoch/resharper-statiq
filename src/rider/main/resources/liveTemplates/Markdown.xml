@@ -1,0 +1,13 @@
+<templateSet group="Markdown">
+    <template name="figure"
+              value="&lt;?# Figure Src=&quot;$SOURCE$&quot; ?&gt;$DESCRIPTION$&lt;?#/ Figure ?&gt;"
+              description="Statiq: Figure"
+              toReformat="false"
+              toShortenFQNames="false">
+        <variable name="SOURCE" expression="" defaultValue="fooo" alwaysStopAt="true"/>
+        <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="MARKDOWN" value="true"/>
+        </context>
+    </template>
+</templateSet>

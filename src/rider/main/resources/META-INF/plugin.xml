@@ -12,4 +12,9 @@
 ]]>
   </description>
 
+  <extensions defaultExtensionNs="com.intellij">
+    <defaultLiveTemplates file="/liveTemplates/Markdown.xml"/>
+    <liveTemplateContext implementation="com.jetbrains.rider.plugins.statiq.MarkdownContext"/>
+  </extensions>
+
 </idea-plugin>
