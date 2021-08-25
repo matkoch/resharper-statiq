@@ -6,8 +6,8 @@
     <Title>Statiq Support</Title>
     <Description>Adds Razor symbol resolution for Statiq</Description>
 
-    <Authors>Matthias Koch</Authors>
-    <Copyright>Copyright $([System.DateTime]::Now.Year) Matthias Koch</Copyright>
+    <Authors>Dave Glick, Matthias Koch</Authors>
+    <Copyright>Copyright $([System.DateTime]::Now.Year) Dave Glick, Matthias Koch</Copyright>
     <PackageTags>statiq static site generation</PackageTags>
 
     <PackageProjectUrl>https://github.com/matkoch/resharper-statiq</PackageProjectUrl>
