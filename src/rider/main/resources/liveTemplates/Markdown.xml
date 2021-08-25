@@ -10,4 +10,76 @@
             <option name="MARKDOWN" value="true"/>
         </context>
     </template>
+    <template name="primary"
+              value="&lt;?# Primary ?&gt;&#10;$END$&#10;&lt;?#/ Primary ?&gt;"
+              description="Statiq: Primary Alert"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="MARKDOWN" value="true"/>
+        </context>
+    </template>
+    <template name="secondary"
+              value="&lt;?# Secondary ?&gt;&#10;$END$&#10;&lt;?#/ Secondary ?&gt;"
+              description="Statiq: Secondary Alert"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="MARKDOWN" value="true"/>
+        </context>
+    </template>
+    <template name="success"
+              value="&lt;?# Success ?&gt;&#10;$END$&#10;&lt;?#/ Success ?&gt;"
+              description="Statiq: Success Alert"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="MARKDOWN" value="true"/>
+        </context>
+    </template>
+    <template name="danger"
+              value="&lt;?# Danger ?&gt;&#10;$END$&#10;&lt;?#/ Danger ?&gt;"
+              description="Statiq: Danger Alert"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="MARKDOWN" value="true"/>
+        </context>
+    </template>
+    <template name="warning"
+              value="&lt;?# Warning ?&gt;&#10;$END$&#10;&lt;?#/ Warning ?&gt;"
+              description="Statiq: Warning Alert"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="MARKDOWN" value="true"/>
+        </context>
+    </template>
+    <template name="info"
+              value="&lt;?# Info ?&gt;&#10;$END$&#10;&lt;?#/ Info ?&gt;"
+              description="Statiq: Info Alert"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="MARKDOWN" value="true"/>
+        </context>
+    </template>
+    <template name="light"
+              value="&lt;?# Light ?&gt;&#10;$END$&#10;&lt;?#/ Light ?&gt;"
+              description="Statiq: Light Alert"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="MARKDOWN" value="true"/>
+        </context>
+    </template>
+    <template name="dark"
+              value="&lt;?# Dark ?&gt;&#10;$END$&#10;&lt;?#/ Dark ?&gt;"
+              description="Statiq: Dark Alert"
+              toReformat="false"
+              toShortenFQNames="false">
+        <context>
+            <option name="MARKDOWN" value="true"/>
+        </context>
+    </template>
 </templateSet>
