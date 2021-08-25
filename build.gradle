@@ -179,7 +179,7 @@ prepareSandbox {
         def file = file(f)
         from(file, { into "${rootProject.name}/dotnet" })
     })
-    from("${rootDir}/src/dotnet/${DotnetPluginId}/annotations", { into "${rootProject.name}/dotnet/Extensions/${RiderPluginId}/annotations" })
+//     from("${rootDir}/src/dotnet/${DotnetPluginId}/annotations", { into "${rootProject.name}/dotnet/Extensions/${RiderPluginId}/annotations" })
 
     doLast {
         dllFiles.forEach({ f ->
