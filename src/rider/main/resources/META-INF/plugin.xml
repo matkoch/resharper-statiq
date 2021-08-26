@@ -8,7 +8,16 @@
 
   <description>
 <![CDATA[
-<p>Adds live templates for Statiq</p>
+<p>Support plugin for <a href="https://statiq.dev/">Statiq</a>. A powerful platform for generating static site content.
+<ul>
+  <li>
+    <a href="https://www.jetbrains.com/help/rider/Using_Live_Templates.html">Live templates in Markdown files
+    <ul>
+      <li><a href="https://getbootstrap.com/docs/4.0/content/figures/">Bootstrap Figures</a>: <code>figure</code></li>
+      <li><a href="https://getbootstrap.com/docs/4.0/components/alerts/">Bootstrap Alerts</a>: <code>primary</code>, <code>secondary</code>, <code>success</code>, <code>danger</code>, <code>warning</code>, <code>info</code>, <code>light</code>, <code>dark</code></li>
+    </ul>
+  </li>
+</ul>
 ]]>
   </description>
 
