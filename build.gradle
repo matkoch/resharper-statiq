@@ -193,11 +193,11 @@ publishPlugin {
     dependsOn buildPlugin
     token = "${PublishToken}"
 
-    doLast {
-        exec {
-            executable "dotnet"
-            args "nuget","push","output/${DotnetPluginId}.${version}.nupkg","--api-key","${PublishToken}","--source","https://plugins.jetbrains.com"
-            workingDir rootDir
-        }
-    }
+    // doLast {
+    //     exec {
+    //         executable "dotnet"
+    //         args "nuget","push","output/${DotnetPluginId}.${version}.nupkg","--api-key","${PublishToken}","--source","https://plugins.jetbrains.com"
+    //         workingDir rootDir
+    //     }
+    // }
 }
