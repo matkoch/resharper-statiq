@@ -17,6 +17,6 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'statiq'
+rootProject.name = 'ReSharperPlugin.Statiq'
 
 include ':protocol'
